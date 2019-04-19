@@ -1,0 +1,23 @@
+<?xml version="1.0"?> 
+<!DOCTYPE shapes [
+<!ELEMENT shapes (circle)*>
+<!ELEMENT circle (x,y,radius)>
+<!ELEMENT x (#PCDATA)>
+<!ELEMENT y (#PCDATA)>
+<!ELEMENT radius (#PCDATA)>
+<!ATTLIST circle color CDATA #IMPLIED>
+]>
+
+<shapes> 
+          <circle color="BLUE"> 
+                <x>20</x>
+                <y>20</y>
+                <radius>20</radius> 
+          </circle>
+          <circle color="RED" >
+                <x>40</x>
+                <y>40</y>
+                <radius>20</radius> 
+          </circle>
+</shapes> 
+	
